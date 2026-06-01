@@ -9,6 +9,9 @@ public class Motor extends Vehicle {
 
     @Override
     public String toString() {
-        return "Type: " + type.type;
+        return "Name: " + name + ", Model: " + model + ", Type: " + type.type + ", Speed: " + speed + "kms, Made in: "
+                + year
+                + " and "
+                + getEngineInfo();
     }
 }

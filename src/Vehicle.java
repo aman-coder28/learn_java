@@ -1,9 +1,9 @@
 public class Vehicle {
-    private final String name;
-    private final String model;
-    private final float speed;
-    private final int year;
-    private final Engine engine;
+    public final String name;
+    public final String model;
+    public final float speed;
+    public final int year;
+    public final Engine engine;
 
     public Vehicle(String name, String model, int speed, int year, Engine engine) {
         this.name = name;
